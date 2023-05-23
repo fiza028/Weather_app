@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/regback"
+    tools:context=".Register">
+
+<ImageView
+    android:layout_width="130dp"
+    android:layout_height="130dp"
+    android:src="@drawable/registered"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="Register Here"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:drawableLeft="@drawable/ic_baseline_text_fields_24"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:fontFamily="@font/arbutus_slab"
+        android:id="@+id/name"
+        android:textSize="16sp"
+        android:hint="Enter Your Name"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"/>
+    <EditText
+        android:id="@+id/cityname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/arbutus_slab"
+        android:layout_marginEnd="20dp"
+        android:drawableLeft="@drawable/ic_baseline_location_city_24"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Cityname"
+        android:inputType="text"
+        android:maxLines="1"
+        android:background="@drawable/rounded_corner"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/arbutus_slab"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:hint="Enter Your Email"
+        android:maxLines="1"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_baseline_password_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/arbutus_slab"
+        android:id="@+id/pass"
+        android:hint="Enter Your Password"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:text="Register" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/white"
+            android:fontFamily="@font/cantata_one"
+            android:text="Already have an account?" />
+
+        <TextView
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Login Now!"
+            android:textColor="@color/white"
+            android:fontFamily="@font/archivo_black"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

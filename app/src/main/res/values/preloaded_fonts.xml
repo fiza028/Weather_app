@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/andika_new_basic</item>
+        <item>@font/antic_slab</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/archivo_black</item>
+        <item>@font/autour_one</item>
+        <item>@font/biryani_extrabold</item>
+        <item>@font/bree_serif</item>
+        <item>@font/cantata_one</item>
+        <item>@font/cardo</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/croissant_one</item>
+        <item>@font/lily_script_one</item>
+        <item>@font/luckiest_guy</item>
+        <item>@font/rock_salt</item>
+        <item>@font/vollkorn_semibold</item>
+    </array>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/loginback"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/key" />
+
+    <TextView
+        android:id="@+id/logintxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:gravity="center"
+        android:text="Login Here"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_margin="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/logintxt"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/arbutus_slab"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:id="@+id/pass"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_below="@id/id"
+                android:fontFamily="@font/arbutus_slab"
+                android:hint="Enter Your Password"
+                android:maxLines="1"
+                android:drawableLeft="@drawable/ic_baseline_password_24"
+                android:background="@drawable/rounded_corner"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="155dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Login"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+        android:layout_below="@id/loginbtn"
+        android:gravity="center"
+                    android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/cantata_one"
+            android:gravity="center"
+            android:text="Donn't have an account?"
+            android:textColor="@color/white" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Register Now!"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:id="@+id/regbtn"
+                        android:paddingLeft="5dp"
+                        android:fontFamily="@font/archivo_black"
+                        android:textColor="@color/white" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
